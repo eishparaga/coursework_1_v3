@@ -1,0 +1,163 @@
+/* Шрифты */
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(/fonts/opensans_300.woff), url(/fonts/opensans_300.woff2);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(/fonts/opensans_400.woff), url(/fonts/opensans_400.woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(/fonts/opensans_600.woff), url(/fonts/opensans_600.woff2);
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+/* Общие стили */
+
+* {
+  box-sizing: border-box;
+}
+
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+}
+
+.container__full {
+  width: 100%;
+}
+
+.container__content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.text-white-light {
+  font-family: 'Open Sans';
+
+}
+
+/* Header */
+
+.container_top {
+  width: 100%;
+  height: 800px;
+  background-image: url(/img/hero-background/01_birmingham-museums-trust.jpg);
+}
+
+.main__menu {
+  height: 100px;
+  background-color: #000000;
+}
+
+.main__menu__container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  width: 173px;
+  height: 40px;
+  background-image: url(/img/logo.svg);
+  margin-right: 180px;
+}
+
+.menu__list {
+  display: flex;
+  margin-right: 274px;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 24.5px;
+  font-weight: 600;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+
+.menu__link:hover {
+  color: #C283F3;
+}
+
+.menu__item:not(:last-child) {
+  margin-right: 62px;
+}
+
+.enter {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 24.5px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.enter:hover  {
+  color: #C283F3;
+}
+
+.enter:hover .enter__image {
+  background-image: url(/img/login-img-hover.svg);
+}
+
+.enter__image {
+  width: 18px;
+  height: 13px;
+  margin-right: 7px;
+  background-image: url(/img/login-img.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+
+
+/* SUB_MENU */
+
+.sub__menu {
+  height: 70px;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.sub__menu__container {
+  outline: 1px solid yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.rout__container {
+  display:flex;
+  width: 100%;
+  max-width: 980px;
+  outline: 1px solid tomato;
+}
