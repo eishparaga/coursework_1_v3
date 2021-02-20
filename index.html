@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="style/normalize.css">
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="/style/normalize.css">
+  <link rel="stylesheet" href="/style/simplebar.css">
+  <link rel="stylesheet" href="/style/style.css">
   <title>Blanchard художественная галерея</title>
 </head>
 
@@ -15,7 +16,7 @@
       <header class="header">
         <div class="container__full main__menu">
           <nav class="container__content main__menu__container">
-            <a href="/index.html">
+            <a class="logo__container" href="/index.html">
               <div class="logo"></div>
             </a>
             <ul class="menu__list">
@@ -36,19 +37,106 @@
         <div class="container sub__menu">
           <nav class="container__content sub__menu__container">
             <div class="rout__container">
-
+              <ul class="rout__list">
+                <li class="rout__item">
+                  <a class="rout__link__container" href="#">
+                    <div class="rout__link_text">Реализм</div>
+                    <div class="rout__link_symbol"></div>
+                  </a>
+                  <div class="drop__list">
+                    <div class="drop__list_container" data-simplebar>
+                      <div class="drop__item real-one">Тинторетто</div>
+                      <div class="drop__item real-two">Фридрих</div>
+                      <div class="drop__item real-three">Леонардо</div>
+                      <div class="drop__item real-four">Верроккью</div>
+                      <div></div>
+                    </div>
+                  </div>
+                </li>
+                <li class="rout__item">
+                  <a class="rout__link__container" href="#">
+                    <div class="rout__link_text">Импрессионизм</div>
+                    <div class="rout__link_symbol"></div>
+                  </a>
+                  <div class="drop__list">
+                    <div class="drop__list_container" data-simplebar>
+                      <div class="drop__item impres-one">Моне</div>
+                      <div class="drop__item impres-two">Сислей</div>
+                      <div class="drop__item impres-three">Мане</div>
+                      <div class="drop__item impres-four">Ренуар</div>
+                      <div></div>
+                    </div>
+                  </div>
+                </li>
+                <li class="rout__item">
+                  <a class="rout__link__container" href="#">
+                    <div class="rout__link_text">Постимпрессионизм</div>
+                    <div class="rout__link_symbol"></div>
+                  </a>
+                  <div class="drop__list">
+                    <div class="drop__list_container" data-simplebar>
+                      <div class="drop__item postimpres-one">Ван Гог</div>
+                      <div class="drop__item postimpres-two">Сезанн</div>
+                      <div class="drop__item postimpres-three">Гоген</div>
+                      <div class="drop__item postimpres-four">Сёра</div>
+                      <div></div>
+                    </div>
+                  </div>
+                </li>
+                <li class="rout__item">
+                  <a class="rout__link__container" href="#">
+                    <div class="rout__link_text">Авангард</div>
+                    <div class="rout__link_symbol"></div>
+                  </a>
+                  <div class="drop__list">
+                    <div class="drop__list_container" data-simplebar>
+                      <div class="drop__item avangard-one">Кандинский</div>
+                      <div class="drop__item avangard-two">Маринетти</div>
+                      <div class="drop__item avangard-three">Малевич</div>
+                      <div class="drop__item avangard-four">Пикассо</div>
+                      <div></div>
+                    </div>
+                  </div>
+                </li>
+                <li class="rout__item">
+                  <a class="rout__link__container" href="#">
+                    <div class="rout__link_text">Футуризм</div>
+                    <div class="rout__link_symbol"></div>
+                  </a>
+                  <div class="drop__list">
+                    <div class="drop__list_container" data-simplebar>
+                      <div class="drop__item future-one">Карра</div>
+                      <div class="drop__item future-two">Прателла</div>
+                      <div class="drop__item future-three">Северини</div>
+                      <div class="drop__item future-four">Балла</div>
+                      <div></div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
             </div>
             <div class="search__container">
-
+              <form class="search">
+                <button class="search__btn" type="submit"></button>
+                <input class="search__input" placeholder="Поиск по сайту">
+              </form>
             </div>
           </nav>
         </div>
+        <section class="container__content section__hero">
+          <div class="hero__container">
+            <h1 class="hero-title">Прикоснитесь к прекрасному</h1>
+            <div class="hero-text">Мы вынуждены отталкиваться от того, что реализация намеченных плановых заданий создаёт предпосылки для новых предложений.</div>
+            <button class="hero-button">Подписаться на рассылку</button>
+          </div>
+        </section>
       </header>
       <main class="main">
 
       </main>
     </div>
   </div>
+  <script src="/js/simplebar.min.js"></script>
 </body>
 
 </html>
