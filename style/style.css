@@ -35,7 +35,7 @@
   box-sizing: border-box;
 }
 
-body, ul, li {
+body, ul, li, h1, h2, h3, p {
   margin: 0;
   padding: 0;
 }
@@ -53,8 +53,6 @@ a {
 :active {
   border: none;
   outline: none;
-  margin: 0;
-  padding: 0;
 }
 
 :focus {
@@ -90,6 +88,9 @@ a {
   width: 100%;
   height: 800px;
   background-image: url(/img/hero-background/01_birmingham-museums-trust.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 80px;
 }
 
 .main__menu {
@@ -489,5 +490,315 @@ a {
   line-height: 24.5px;
   font-weight: 700;
   color: #FFFFFF;
+}
 
+/* ABOUT__US */
+
+.section__about {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-regular {
+  display: inline-block;
+  margin: 0 0 16px -2px;
+  font-family: 'Open Sans';
+  font-size: 48px;
+  line-height: 65px;
+  font-weight: 400;
+}
+
+.title-white {
+  color: #FFFFFF;
+}
+
+.about-text-container {
+  max-width: 1080px;
+  width: 100%;
+}
+
+.text-regular {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.container__content.section__about {
+  margin-bottom: 70px;
+}
+
+/* GALLERY */
+
+.gallery {
+  margin-bottom: 80px;
+}
+
+.container__full.gallery {
+  width: 100%;
+  height: 995px;
+  background-image: url(/img/gallery/gallery-background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery__container {
+  display: flex;
+  height: 100%;
+  padding: 70px 0;
+}
+
+.gallery__left {
+  max-width: 400px;
+  width: 100%;
+  height: 100%;
+  margin: 0 50px 0 0;
+  padding: 10px 0 0 0;
+}
+
+.gallery__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form__gallery__text {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/* CHOICES */
+
+.choices__inner {
+  min-height: 40px;
+  padding: 5px 5px 5px 10px;
+  background-color: transparent;
+  border-radius: 6px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.is-open .choices__inner {
+  min-height: 40px;
+  padding: 5px 5px 5px 10px;
+  background-color: transparent;
+  border-radius: 6px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.is-focused .choices__inner,
+.is-open .choices__inner {
+    border: 1px solid #FFFFFF;
+}
+
+.choices__list--dropdown {
+  background-color: transparent;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.is-open .choices__list--dropdown {
+  border: 1px solid #999999;
+  border-radius: 6px;
+}
+
+.choices__list--dropdown .choices__item--selectable.is-highlighted {
+  background-color: transparent;
+}
+
+.choices__list--dropdown .choices__item:not(:last-child) {
+  border-bottom: 1px solid #999999;
+}
+
+.choices__list--dropdown .choices__item:hover {
+  color: #C283F3;
+}
+
+.choices[data-type*=select-one]:after {
+  content: '';
+  height: 10px;
+  width: 12px;
+  border: none;
+  background-image: url(/img/pictogram/down-img.svg);
+  position: absolute;
+  right: 14px;
+  top: 18px;
+  margin-top: -2.5px;
+  pointer-events: none
+}
+
+.choices[data-type*=select-one].is-open:after {
+  margin-top: -2.5px
+}
+
+/* --------- */
+
+.gallery__right{
+  max-width: 1150px;
+  width: 100%;
+  height: 100%;
+}
+
+.text-semibold {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.link__active {
+  color: #C283F3;
+}
+
+/* SWIPER GALLERY */
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-wrapper {
+  flex-wrap: wrap;
+  top: 95px;
+}
+
+.swiper-slide {
+  height: 350px;
+}
+
+.swiper-pagination-fraction {
+  position: absolute;
+  top: -7px;
+  left: 38px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #FFFFFF;
+  width: 60px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #666666;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+}
+
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  opacity: 0.7;
+}
+
+.swiper-button-prev {
+  top: 15px;
+  left: 2px;
+  background-image: url(/img/gallery/back.svg);
+}
+
+.swiper-button-next {
+  top: 15px;
+  left: 105px;
+  background-image: url(/img/gallery/next.svg);
+}
+
+.swiper-top {
+  position: absolute;
+  top: 42px;
+  width: 130px;
+  height: 30px;
+}
+
+/* CATALOG */
+
+.catalog__top {
+  display: flex;
+  align-items: center;
+}
+
+.catalog__title {
+  display: inline-block;
+  margin-right: 42px;
+}
+
+.country__tabs__list {
+  display: flex;
+  padding-bottom: 8px;
+}
+
+.country__tabs__item {
+  width: 46px;
+  height: 46px;
+}
+
+.country__tabs__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.tabs__btn {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: transparent;
+  border-radius: 100%;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+[data-tabs-path="france"] {
+  background-image: url(/img/catalog/france.png);
+}
+
+[data-tabs-path="germany"] {
+  background-image: url(/img/catalog/germany.png);
+}
+
+[data-tabs-path="italy"] {
+  background-image: url(/img/catalog/italy.png);
+}
+
+[data-tabs-path="russia"] {
+  background-image: url(/img/catalog/russia.png);
+}
+
+[data-tabs-path="belgium"] {
+  background-image: url(/img/catalog/belgium.png);
+}
+
+.catalog__text__block {
+  max-width: 1080px;
+  margin-bottom: 50px;
+}
+
+.tabs__btn--active::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 62px;
+  height: 62px;
+  border: 2px solid #9D5CD0;
+  border-radius: 100%;
 }
