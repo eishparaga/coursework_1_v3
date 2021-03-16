@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="/style/normalize.css">
   <link rel="stylesheet" href="/style/simplebar.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="/style/choices.min.css">
   <link rel="stylesheet" href="/style/style.css">
   <title>Blanchard художественная галерея</title>
@@ -14,130 +15,161 @@
 
 <body>
   <div class="wrapper">
-    <div class="container container_top">
+    <div class="container container__top">
       <header class="header">
-        <div class="container__full main__menu">
-          <nav class="container__content main__menu__container">
-            <a class="logo__container" href="/index.html">
+        <div class="header__top container__full">
+          <nav class="container__content container__menu">
+            <a class="logo__container" href="/test_page.html">
               <div class="logo"></div>
             </a>
             <ul class="menu__list">
-              <li class="menu__item"><a class="menu__link" href="#">О нас</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">Галерея</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">Каталог</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">События</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">Издания</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">Проекты</a></li>
-              <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+              <li class="menu__item"><a class="menu__link" href="#about-us">О нас</a></li>
+              <li class="menu__item"><a class="menu__link" href="#gallery">Галерея</a></li>
+              <li class="menu__item"><a class="menu__link" href="#catalog">Каталог</a></li>
+              <li class="menu__item"><a class="menu__link" href="#events">События</a></li>
+              <li class="menu__item"><a class="menu__link" href="#publication">Издания</a></li>
+              <li class="menu__item"><a class="menu__link" href="#project">Проекты</a></li>
+              <li class="menu__item"><a class="menu__link" href="#contacts">Контакты</a></li>
             </ul>
-            <a class="enter" href="#">
+            <a class="header__enter" href="#">
               <div class="enter__image"></div>
               <div class="enter__text">Войти</div>
             </a>
           </nav>
         </div>
-        <div class="container sub__menu">
-          <nav class="container__content sub__menu__container">
-            <div class="rout__container">
-              <ul class="rout__list">
-                <li class="rout__item">
-                  <a class="rout__link__container" href="#">
-                    <div class="rout__link_text">Реализм</div>
-                    <div class="rout__link_symbol"></div>
-                  </a>
-                  <div class="drop__list">
-                    <div class="drop__list_container" data-simplebar>
-                      <div class="drop__item real-one">Тинторетто</div>
-                      <div class="drop__item real-two">Фридрих</div>
-                      <div class="drop__item real-three">Леонардо</div>
-                      <div class="drop__item real-four">Верроккью</div>
-                      <div></div>
-                    </div>
-                  </div>
-                </li>
-                <li class="rout__item">
-                  <a class="rout__link__container" href="#">
-                    <div class="rout__link_text">Импрессионизм</div>
-                    <div class="rout__link_symbol"></div>
-                  </a>
-                  <div class="drop__list">
-                    <div class="drop__list_container" data-simplebar>
-                      <div class="drop__item impres-one">Моне</div>
-                      <div class="drop__item impres-two">Сислей</div>
-                      <div class="drop__item impres-three">Мане</div>
-                      <div class="drop__item impres-four">Ренуар</div>
-                      <div></div>
-                    </div>
-                  </div>
-                </li>
-                <li class="rout__item">
-                  <a class="rout__link__container" href="#">
-                    <div class="rout__link_text">Постимпрессионизм</div>
-                    <div class="rout__link_symbol"></div>
-                  </a>
-                  <div class="drop__list">
-                    <div class="drop__list_container" data-simplebar>
-                      <div class="drop__item postimpres-one">Ван Гог</div>
-                      <div class="drop__item postimpres-two">Сезанн</div>
-                      <div class="drop__item postimpres-three">Гоген</div>
-                      <div class="drop__item postimpres-four">Сёра</div>
-                      <div></div>
-                    </div>
-                  </div>
-                </li>
-                <li class="rout__item">
-                  <a class="rout__link__container" href="#">
-                    <div class="rout__link_text">Авангард</div>
-                    <div class="rout__link_symbol"></div>
-                  </a>
-                  <div class="drop__list">
-                    <div class="drop__list_container" data-simplebar>
-                      <div class="drop__item avangard-one">Кандинский</div>
-                      <div class="drop__item avangard-two">Маринетти</div>
-                      <div class="drop__item avangard-three">Малевич</div>
-                      <div class="drop__item avangard-four">Пикассо</div>
-                      <div></div>
-                    </div>
-                  </div>
-                </li>
-                <li class="rout__item">
-                  <a class="rout__link__container" href="#">
-                    <div class="rout__link_text">Футуризм</div>
-                    <div class="rout__link_symbol"></div>
-                  </a>
-                  <div class="drop__list">
-                    <div class="drop__list_container" data-simplebar>
-                      <div class="drop__item future-one">Карра</div>
-                      <div class="drop__item future-two">Прателла</div>
-                      <div class="drop__item future-three">Северини</div>
-                      <div class="drop__item future-four">Балла</div>
-                      <div></div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="search__container">
-              <form class="search">
-                <button class="search__btn" type="submit"></button>
-                <input class="search__input" placeholder="Поиск по сайту">
-              </form>
-            </div>
-          </nav>
+        <div class="container__full header__bottom-full">
+          <div class="container__content header__bottom-content">
+            <ul class="trend-list">
+              <li class="trend-items" tabindex="0">
+                <button class="trend-item__btn btn">Реализм</button>
+                <nav class="trend-items__droplist droplist">
+                  <ul class="droplist__list" data-simplebar>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_tintoretto" href="#test">Тинторретто</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_fridrich" href="#">Фридрих</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_leonardo" href="#">Леонардо</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_veroccyo" href="#">Верроккьо</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_tintoretto" href="#">Тинторретто</a>
+                    </li>
+                  </ul>
+                </nav>
+              </li>
+              <li class="trend-items" tabindex="0">
+                <button class="trend-item__btn">Импрессионизм</button>
+                <nav class="trend-items__droplist droplist">
+                  <ul class="droplist__list" data-simplebar>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_mone" href="#">Моне</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_sysle" href="#">Сислей</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_mane" href="#">Мане</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_renuar" href="#">Ренуар</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_mone" href="#">Моне</a>
+                    </li>
+                  </ul>
+                </nav>
+              </li>
+              <li class="trend-items" tabindex="0">
+                <button class="trend-item__btn">Постимпрессионизм</button>
+                <nav class="trend-items__droplist droplist">
+                  <ul class="droplist__list" data-simplebar>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_gog" href="#">Ван Гог</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_sesann" href="#">Сезанн</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_gogen" href="#">Гоген</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_sera" href="#">Сёра</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_gog" href="#">Ван Гог</a>
+                    </li>
+                  </ul>
+                </nav>
+              </li>
+              <li class="trend-items" tabindex="0">
+                <button class="trend-item__btn">Авангард</button>
+                <nav class="trend-items__droplist droplist">
+                  <ul class="droplist__list" data-simplebar>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_kandinsky" href="#">Кандинский</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_marinet" href="#">Маринетти</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_malevic" href="#">Малевич</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_picasso" href="#">Пикассо</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_kandinsky" href="#">Кандинский</a>
+                    </li>
+                  </ul>
+                </nav>
+              </li>
+              <li class="trend-items" tabindex="0">
+                <button class="trend-item__btn">Футуризм</button>
+                <nav class="trend-items__droplist droplist">
+                  <ul class="droplist__list" data-simplebar>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_karra" href="#">Карра</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_pratella" href="#">Прателла</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_severiny" href="#">Cеверини</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_balla" href="#">Балла</a>
+                    </li>
+                    <li class="droplist__items">
+                      <a class="droplist__link link-author_karra" href="#">Карра</a>
+                    </li>
+                  </ul>
+                </nav>
+              </li>
+            </ul>
+            <form class="site-search" method="POST">
+              <button class="site-search__btn"></button>
+              <input class="site-search__input" type="text" placeholder="Поиск по сайту">
+            </form>
+          </div>
         </div>
         <section class="container__content section__hero">
           <div class="hero__container">
-            <h1 class="hero-title">Прикоснитесь к прекрасному</h1>
-            <div class="hero-text">Мы вынуждены отталкиваться от того, что реализация намеченных плановых заданий
+            <h1 class="hero__title">Прикоснитесь к прекрасному</h1>
+            <div class="hero__text">Мы вынуждены отталкиваться от того, что реализация намеченных плановых заданий
               создаёт предпосылки для новых предложений.</div>
-            <button class="hero-button">Подписаться на рассылку</button>
+            <a class="hero__link" href="#contacts">Подписаться на рассылку</a>
           </div>
         </section>
       </header>
     </div>
     <main class="container main">
       <section class="container__content section__about">
-        <h2 class="title-regular">О нас</h2>
+        <h2 class="title-regular" id="about-us">О нас</h2>
         <div class="about-text-container text-regular">Ясность нашей позиции очевидна: семантический разбор внешних
           противодействий однозначно определяет каждого участника как способного принимать собственные решения касаемо
           распределения внутренних резервов и ресурсов. Не следует, однако, забывать, что высококачественный прототип
@@ -152,7 +184,7 @@
           <div class="gallery__container container__content">
             <div class="gallery__left">
               <div class="gallery__left__top">
-                <h2 class="title-regular title-white">Галерея</h2>
+                <h2 class="title-regular title-white" id="gallery">Галерея</h2>
                 <form class="form__gallery">
                   <span class="text-semibold text-white form__gallery__text">Фильтровать по:</span>
                   <select name="filter" class="js-choice">
@@ -163,8 +195,8 @@
                 </form>
               </div>
               <p class="text-semibold text-white">
-                Вам предоставляется 10 бесплатных скачиваний. Для увеличения количества скачиваний <a
-                  class="link__active" href="#">авторизуйтесь</a>, либо воспользуйтесь лицензией.
+                Вам предоставляется 10 бесплатных скачиваний. Для увеличения количества скачиваний
+                <a class="link__active" href="#">авторизуйтесь</a>, либо воспользуйтесь лицензией.
               </p>
             </div>
             <div class="gallery__right">
@@ -244,11 +276,12 @@
       <section class="catalog">
         <div class="container__content">
           <div class="catalog__top">
-            <h2 class="title-regular catalog__title">Каталог</h2>
+            <h2 class="title-regular catalog__title" id="catalog">Каталог</h2>
             <ul class="country__tabs__list">
               <li class="country__tabs__item"><button class="tabs__btn" data-tabs_path="france"></button></li>
               <li class="country__tabs__item"><button class="tabs__btn" data-tabs_path="germany"></button></li>
-              <li class="country__tabs__item"><button class="tabs__btn tabs__btn_active" data-tabs_path="italy"></button></li>
+              <li class="country__tabs__item"><button class="tabs__btn tabs__btn_active"
+                  data-tabs_path="italy"></button></li>
               <li class="country__tabs__item"><button class="tabs__btn" data-tabs_path="russia"></button></li>
               <li class="country__tabs__item"><button class="tabs__btn" data-tabs_path="belgium"></button></li>
             </ul>
@@ -265,220 +298,245 @@
               <div class="author-content__container">
                 <div class="tabs_disable" data-target="italy_101">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_102">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_103">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_104">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_105">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_106">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_107">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_108">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_109">
                   <div class="author__content">
-                    <img class="author__portrait" src="/img/catalog/portraite/italy/italy_109.jpg">
+                    <img class="author__portrait" src="/img/catalog/portraite/italy/italy_109.jpg" alt="Картинка">
                     <h4 class="author__name">Бьяджо д'Антонио Туччи</h4>
                     <span class="author__date">1446 &mdash; 1 июня 1516г.</span>
-                    <p class="author__biography text-regular">Итальянский художник эпохи Возрождения. Его творчество было вдохновлено работами Филиппо Липпи, Андреа Верроккьо, Доменико Гирландайо. Последнюю четверть XV века работал в Фаэнце, но в его стиле мало элементов флорентийского стиля — прослеживается влияние ранней нидерландскрй живописи.</p>
+                    <p class="author__biography text-regular">Итальянский художник эпохи Возрождения. Его творчество
+                      было вдохновлено работами Филиппо Липпи, Андреа Верроккьо, Доменико Гирландайо. Последнюю четверть
+                      XV века работал в Фаэнце, но в его стиле мало элементов флорентийского стиля — прослеживается
+                      влияние ранней нидерландскрй живописи.</p>
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_110">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_111">
                   <div class="author__content">
-                    <img class="author__portrait" src="/img/catalog/portraite/italy/italy_111.jpg">
+                    <img class="author__portrait" src="/img/catalog/portraite/italy/italy_111.jpg" alt="Картинка">
                     <h4 class="author__name">Андреа Верроккью</h4>
                     <span class="author__date">1435 &mdash; 1488 гг.</span>
-                    <p class="author__biography text-regular">Cкульптор и живописец эпохи Возрождения, представитель Флорентийской школы. Среди его учеников — Сандро Боттичелли, Пьетро Перуджино, Леонардо да Винчи и Лоренцо ди Креди.</p>
+                    <p class="author__biography text-regular">Cкульптор и живописец эпохи Возрождения, представитель
+                      Флорентийской школы. Среди его учеников — Сандро Боттичелли, Пьетро Перуджино, Леонардо да Винчи и
+                      Лоренцо ди Креди.</p>
                   </div>
                 </div>
                 <div class="tabs_disable author-content__tabs_active" data-target="italy_112">
                   <div class="author__content">
-                    <img class="author__portrait" src="/img/catalog/portraite/italy/italy_112.jpg">
+                    <img class="author__portrait" src="/img/catalog/portraite/italy/italy_112.jpg" alt="Картинка">
                     <h4 class="author__name">Доменико Гирландайо</h4>
                     <span class="author__date">2 июня 1448 &mdash; 11 января 1494.</span>
-                    <p class="author__biography text-regular">Один из ведущих флорентийских художников Кватроченто, основатель художественной династии, которую продолжили его брат Давид и сын Ридольфо. Глава художественной мастерской, где юный Микеланджело в течение года овладевал профессиональными навыками. Автор фресковых циклов, в которых выпукло, со всевозможными подробностями показана домашняя жизнь библейских персонажей (в их роли выступают знатные граждане Флоренции в костюмах того времени)</p>
+                    <p class="author__biography text-regular">Один из ведущих флорентийских художников Кватроченто,
+                      основатель художественной династии, которую продолжили его брат Давид и сын Ридольфо. Глава
+                      художественной мастерской, где юный Микеланджело в течение года овладевал профессиональными
+                      навыками. Автор фресковых циклов, в которых выпукло, со всевозможными подробностями показана
+                      домашняя жизнь библейских персонажей (в их роли выступают знатные граждане Флоренции в костюмах
+                      того времени)</p>
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_113">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_114">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_115">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_116">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_117">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_118">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_119">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_120">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_121">
                   <div class="author__content">
-                    <img class="author__portrait" src="/img/catalog/portraite/italy/italy_121.jpg">
+                    <img class="author__portrait" src="/img/catalog/portraite/italy/italy_121.jpg" alt="Картинка">
                     <h4 class="author__name">Пьетро Перуджино</h4>
                     <span class="author__date">1448 &mdash; 1523гг.</span>
-                    <p class="author__biography text-regular">Итальянский живописец эпохи Возрождения, представитель умбрийской школы. Родился в местечке Читта-делла-Пьеве в 35 км от Перуджи. После обучения у местного живописца в 1470 году приехал во Флоренцию и поступил в мастерскую Андреа Верроккьо. В 1481 году, будучи уже известным мастером, в числе лучших художников Италии приглашён папой Сикстом IV в Рим для участия в работах над декорированием Сикстинской капеллы. Работал во многих городах Италии, но более всего в Перудже, где он был главой большой мастерской. В 1480—1490-х годах Перуджино был одним из самых прославленных художников Италии. Самый же знаменитый из его учеников — Рафаэль Санти.</p>
+                    <p class="author__biography text-regular">Итальянский живописец эпохи Возрождения, представитель
+                      умбрийской школы. Родился в местечке Читта-делла-Пьеве в 35 км от Перуджи. После обучения у
+                      местного живописца в 1470 году приехал во Флоренцию и поступил в мастерскую Андреа Верроккьо. В
+                      1481 году, будучи уже известным мастером, в числе лучших художников Италии приглашён папой Сикстом
+                      IV в Рим для участия в работах над декорированием Сикстинской капеллы. Работал во многих городах
+                      Италии, но более всего в Перудже, где он был главой большой мастерской. В 1480—1490-х годах
+                      Перуджино был одним из самых прославленных художников Италии. Самый же знаменитый из его учеников
+                      — Рафаэль Санти.</p>
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_122">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_123">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_124">
                   <div class="author__content">
-                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
                 </div>
                 <div class="tabs_disable" data-target="italy_201">
                   <div class="author__content">
-                    <img class="author__portrait" src="/img/catalog/portraite/italy/italy_201.jpg">
+                    <img class="author__portrait" src="/img/catalog/portraite/italy/italy_201.jpg" alt="Картинка">
                     <h4 class="author__name">Рафаэль Санти</h4>
                     <span class="author__date">6 апреля 1483 &mdash; 28 марта 1483г.</span>
-                    <p class="author__biography text-regular">Итальянский живописец, график и архитектор умбрийской, а затем римской, школы. Один из ярчайших представителей искусства эпохи Высокого Возрождения, или римского классицизма начала XVI века. За свою недолгую жизнь он стал одним из самых прославленных и богатых художников Италии. В своих произведениях Рафаэль воплотил представление о возвышенных идеалах ренессансного гуманизма. Его картина «Сикстинская Мадонна» является одной из самых узнаваемых в истории, она являлась вдохновительницей и любимым полотном русского писателя Фёдора Достоевского</p>
+                    <p class="author__biography text-regular">Итальянский живописец, график и архитектор умбрийской, а
+                      затем римской, школы. Один из ярчайших представителей искусства эпохи Высокого Возрождения, или
+                      римского классицизма начала XVI века. За свою недолгую жизнь он стал одним из самых прославленных
+                      и богатых художников Италии. В своих произведениях Рафаэль воплотил представление о возвышенных
+                      идеалах ренессансного гуманизма. Его картина «Сикстинская Мадонна» является одной из самых
+                      узнаваемых в истории, она являлась вдохновительницей и любимым полотном русского писателя Фёдора
+                      Достоевского</p>
                   </div>
+                </div>
+                <div class="tabs_disable" data-target="italy_202">
+                  <div class="author__content">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
-                  <div class="tabs_disable" data-target="italy_202">
-                    <div class="author__content">
-                      <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
-                    </div>
+                </div>
+                <div class="tabs_disable" data-target="italy_203">
+                  <div class="author__content">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
-                  <div class="tabs_disable" data-target="italy_203">
-                    <div class="author__content">
-                      <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
-                    </div>
+                </div>
+                <div class="tabs_disable" data-target="italy_301">
+                  <div class="author__content">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
-                  <div class="tabs_disable" data-target="italy_301">
-                    <div class="author__content">
-                      <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
-                    </div>
+                </div>
+                <div class="tabs_disable" data-target="italy_302">
+                  <div class="author__content">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
-                  <div class="tabs_disable" data-target="italy_302">
-                    <div class="author__content">
-                      <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
-                    </div>
+                </div>
+                <div class="tabs_disable" data-target="italy_401">
+                  <div class="author__content">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
-                  <div class="tabs_disable" data-target="italy_401">
-                    <div class="author__content">
-                      <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
-                    </div>
+                </div>
+                <div class="tabs_disable" data-target="italy_402">
+                  <div class="author__content">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
-                  <div class="tabs_disable" data-target="italy_402">
-                    <div class="author__content">
-                      <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
-                    </div>
+                </div>
+                <div class="tabs_disable" data-target="italy_501">
+                  <div class="author__content">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
-                  <div class="tabs_disable" data-target="italy_501">
-                    <div class="author__content">
-                      <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
-                    </div>
+                </div>
+                <div class="tabs_disable" data-target="italy_502">
+                  <div class="author__content">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
-                  <div class="tabs_disable" data-target="italy_502">
-                    <div class="author__content">
-                      <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
-                    </div>
+                </div>
+                <div class="tabs_disable" data-target="italy_601">
+                  <div class="author__content">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
-                  <div class="tabs_disable" data-target="italy_601">
-                    <div class="author__content">
-                      <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
-                    </div>
+                </div>
+                <div class="tabs_disable" data-target="italy_602">
+                  <div class="author__content">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
-                  <div class="tabs_disable" data-target="italy_602">
-                    <div class="author__content">
-                      <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
-                    </div>
+                </div>
+                <div class="tabs_disable" data-target="italy_701">
+                  <div class="author__content">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
-                  <div class="tabs_disable" data-target="italy_701">
-                    <div class="author__content">
-                      <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
-                    </div>
+                </div>
+                <div class="tabs_disable" data-target="italy_702">
+                  <div class="author__content">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
-                  <div class="tabs_disable" data-target="italy_702">
-                    <div class="author__content">
-                      <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
-                    </div>
-                  </div>
+                </div>
 
-                  <!-- ФРАНЦИЯ -->
+                <!-- ФРАНЦИЯ -->
 
-                  <div class="tabs_disable" data-target="france_101">
-                    <div class="author__content">
-                      <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png">
-                    </div>
+                <div class="tabs_disable" data-target="france_101">
+                  <div class="author__content">
+                    <img class="author__portrait no_image" src="/img/catalog/portraite/razrabotka.png" alt="Картинка">
                   </div>
-                  <div class="tabs_disable" data-target="france_102">
-                    <div class="author__content">
-                      <img class="author__portrait" src="/img/catalog/portraite/france/france_102.jpg">
-                      <h4 class="author__name">Дюваль Марк</h4>
-                      <span class="author__date">1530 &mdash; 13 сентября 1581г.</span>
-                      <p class="author__biography text-regular">Французский придворный художник и гравёр. Ему атрибутируются работы Мастера виконта Люксембурга-Мортига (фр. Master of Luxembourg-Martigues[1]). Известен портретами вождей гугенотской партии.</p>
-                    </div>
+                </div>
+                <div class="tabs_disable" data-target="france_102">
+                  <div class="author__content">
+                    <img class="author__portrait" src="/img/catalog/portraite/france/france_102.jpg" alt="Картинка">
+                    <h4 class="author__name">Дюваль Марк</h4>
+                    <span class="author__date">1530 &mdash; 13 сентября 1581г.</span>
+                    <p class="author__biography text-regular">Французский придворный художник и гравёр. Ему
+                      атрибутируются работы Мастера виконта Люксембурга-Мортига (фр. Master of Luxembourg-Martigues[1]).
+                      Известен портретами вождей гугенотской партии.</p>
                   </div>
+                </div>
               </div>
             </div>
             <div class="catalog__bottom__right">
@@ -491,8 +549,10 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link link__no-content" data-tabs_author="france_101"><span class="item__link_hover">Дипр, Никола</span></a>
-                    <a class="item__link" data-tabs_author="france_102"><span class="item__link_hover">Дюваль, Марк</span></a>
+                    <div class="item__link link__no-content" data-tabs_author="france_101"><span
+                        class="item__link_hover">Дипр, Никола</span></div>
+                    <div class="item__link" data-tabs_author="france_102"><span class="item__link_hover">Дюваль,
+                        Марк</span></div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -501,8 +561,10 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link link__no-content" data-tabs_author="france_201"><span class="item__link_hover">Дюмустье, Даниель</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="france_202"><span class="item__link_hover">Дюмустье, Жоффруа</span></a>
+                    <div class="item__link link__no-content" data-tabs_author="france_201"><span
+                        class="item__link_hover">Дюмустье, Даниель</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="france_202"><span
+                        class="item__link_hover">Дюмустье, Жоффруа</span></div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -511,8 +573,10 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link link__no-content" data-tabs_author="france_301"><span class="item__link_hover">Карон, Антуан</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="france_302"><span class="item__link_hover">Клуэ, Жан</span></a>
+                    <div class="item__link link__no-content" data-tabs_author="france_301"><span
+                        class="item__link_hover">Карон, Антуан</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="france_302"><span
+                        class="item__link_hover">Клуэ, Жан</span></div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -521,8 +585,10 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link link__no-content" data-tabs_author="france_401"><span class="item__link_hover">Лимозен, Леонар</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="france_402"><span class="item__link_hover">Перреаль, Жан</span></a>
+                    <div class="item__link link__no-content" data-tabs_author="france_401"><span
+                        class="item__link_hover">Лимозен, Леонар</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="france_402"><span
+                        class="item__link_hover">Перреаль, Жан</span></div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -531,8 +597,10 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link link__no-content" data-tabs_author="france_501"><span class="item__link_hover">Приматиччо, Франческо</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="france_502"><span class="item__link_hover">Рабель, Даниэль</span></a>
+                    <div class="item__link link__no-content" data-tabs_author="france_501"><span
+                        class="item__link_hover">Приматиччо, Франческо</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="france_502"><span
+                        class="item__link_hover">Рабель, Даниэль</span></div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -541,8 +609,10 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link link__no-content" data-tabs_author="france_601"><span class="item__link_hover">Тестар, Робине</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="france_602"><span class="item__link_hover">Россо Фьорентино</span></a>
+                    <div class="item__link link__no-content" data-tabs_author="france_601"><span
+                        class="item__link_hover">Тестар, Робине</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="france_602"><span
+                        class="item__link_hover">Россо Фьорентино</span></div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -551,8 +621,10 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link link__no-content" data-tabs_author="france_701"><span class="item__link_hover">Хуни, Хуанде де</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="france_702"><span class="item__link_hover">Биго, Трофим</span></a>
+                    <div class="item__link link__no-content" data-tabs_author="france_701"><span
+                        class="item__link_hover">Хуни, Хуанде де</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="france_702"><span
+                        class="item__link_hover">Биго, Трофим</span></div>
                   </div>
                 </div>
               </div>
@@ -565,9 +637,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="germany_101">Тест 1 Germany</a>
-                    <a class="item__link" data-tabs_author="germany_102">Тест 2 Germany</a>
-                    <a class="item__link" data-tabs_author="germany_103">Тест 3 Germany</a>
+                    <div class="item__link" data-tabs_author="germany_101">Тест 1 Germany</div>
+                    <div class="item__link" data-tabs_author="germany_102">Тест 2 Germany</div>
+                    <div class="item__link" data-tabs_author="germany_103">Тест 3 Germany</div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -576,9 +648,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="germany_201">Тест 1 Germany</a>
-                    <a class="item__link" data-tabs_author="germany_202">Тест 2 Germany</a>
-                    <a class="item__link" data-tabs_author="germany_203">Тест 3 Germany</a>
+                    <div class="item__link" data-tabs_author="germany_201">Тест 1 Germany</div>
+                    <div class="item__link" data-tabs_author="germany_202">Тест 2 Germany</div>
+                    <div class="item__link" data-tabs_author="germany_203">Тест 3 Germany</div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -587,9 +659,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="germany_301">Тест 1 Germany</a>
-                    <a class="item__link" data-tabs_author="germany_302">Тест 2 Germany</a>
-                    <a class="item__link" data-tabs_author="germany_303">Тест 3 Germany</a>
+                    <div class="item__link" data-tabs_author="germany_301">Тест 1 Germany</div>
+                    <div class="item__link" data-tabs_author="germany_302">Тест 2 Germany</div>
+                    <div class="item__link" data-tabs_author="germany_303">Тест 3 Germany</div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -598,9 +670,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="germany_401">Тест 1 Germany</a>
-                    <a class="item__link" data-tabs_author="germany_402">Тест 2 Germany</a>
-                    <a class="item__link" data-tabs_author="germany_403">Тест 3 Germany</a>
+                    <div class="item__link" data-tabs_author="germany_401">Тест 1 Germany</div>
+                    <div class="item__link" data-tabs_author="germany_402">Тест 2 Germany</div>
+                    <div class="item__link" data-tabs_author="germany_403">Тест 3 Germany</div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -609,9 +681,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="germany_501">Тест 1 Germany</a>
-                    <a class="item__link" data-tabs_author="germany_502">Тест 2 Germany</a>
-                    <a class="item__link" data-tabs_author="germany_503">Тест 3 Germany</a>
+                    <div class="item__link" data-tabs_author="germany_501">Тест 1 Germany</div>
+                    <div class="item__link" data-tabs_author="germany_502">Тест 2 Germany</div>
+                    <div class="item__link" data-tabs_author="germany_503">Тест 3 Germany</div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -620,9 +692,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="germany_601">Тест 1 Germany</a>
-                    <a class="item__link" data-tabs_author="germany_602">Тест 2 Germany</a>
-                    <a class="item__link" data-tabs_author="germany_603">Тест 3 Germany</a>
+                    <div class="item__link" data-tabs_author="germany_601">Тест 1 Germany</div>
+                    <div class="item__link" data-tabs_author="germany_602">Тест 2 Germany</div>
+                    <div class="item__link" data-tabs_author="germany_603">Тест 3 Germany</div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -631,11 +703,11 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="germany_701">Тест 1 Germany</a>
-                    <a class="item__link" data-tabs_author="germany_702">Тест 2 Germany</a>
-                    <a class="item__link" data-tabs_author="germany_703">Тест 3 Germany</a>
+                    <div class="item__link" data-tabs_author="germany_701">Тест 1 Germany</div>
+                    <div class="item__link" data-tabs_author="germany_702">Тест 2 Germany</div>
+                    <div class="item__link" data-tabs_author="germany_703">Тест 3 Germany</div>
                   </div>
-                  
+
                 </div>
               </div>
               <div class="country__tabs__content tab__content__active" data-target="italy">
@@ -647,30 +719,54 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link link__no-content" data-tabs_author="italy_101"><span class="item__link_hover">Бенедетто ди Биндо</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_102"><span class="item__link_hover">Бергоньоне, Амброджо</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_103"><span class="item__link_hover">Биссоло, Франческо</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_104"><span class="item__link_hover">Больтраффио, Джованни</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_105"><span class="item__link_hover">Бонсиньори, Франческо</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_106"><span class="item__link_hover">Боттичини, Рафаэлло</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_107"><span class="item__link_hover">Брамантино</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_108"><span class="item__link_hover">Бреа, Людовико</span></a>
-                    <a class="item__link" data-tabs_author="italy_109"><span class="item__link_hover">Бьяджо д'Антонио Туччи</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_110"><span class="item__link_hover">Веккьетта</span></a>
-                    <a class="item__link" data-tabs_author="italy_111"><span class="item__link_hover">Андреа Верроккью</span></a>
-                    <a class="item__link item__link__is_active" data-tabs_author="italy_112"><span class="item__link_hover">Доменико Гирландайо</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_113"><span class="item__link_hover">Беноццо Гоццоли</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_114"><span class="item__link_hover">Граначчи, Франческо</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_115"><span class="item__link_hover">Грегорио ди Чекко</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_116"><span class="item__link_hover">Джованни да Удине</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_117"><span class="item__link_hover">Джованни ди Паоло</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_118"><span class="item__link_hover">Джордоне</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_119"><span class="item__link_hover">Парентино, Бернардо</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_120"><span class="item__link_hover">Пазеллино</span></a>
-                    <a class="item__link" data-tabs_author="italy_121"><span class="item__link_hover">Пьетро Перуджино</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_122"><span class="item__link_hover">Перуцци, Бальдассаре</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_123"><span class="item__link_hover">Пизанелло</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_124"><span class="item__link_hover">Пинтуриккьо</span></a>
+                    <div class="item__link link__no-content" data-tabs_author="italy_101"><span
+                        class="item__link_hover">Бенедетто ди Биндо</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_102"><span
+                        class="item__link_hover">Бергоньоне, Амброджо</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_103"><span
+                        class="item__link_hover">Биссоло, Франческо</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_104"><span
+                        class="item__link_hover">Больтраффио, Джованни</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_105"><span
+                        class="item__link_hover">Бонсиньори, Франческо</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_106"><span
+                        class="item__link_hover">Боттичини, Рафаэлло</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_107"><span
+                        class="item__link_hover">Брамантино</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_108"><span
+                        class="item__link_hover">Бреа, Людовико</span></div>
+                    <div class="item__link" data-tabs_author="italy_109"><span class="item__link_hover">Бьяджо д'Антонио
+                        Туччи</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_110"><span
+                        class="item__link_hover">Веккьетта</span></div>
+                    <div class="item__link" data-tabs_author="italy_111"><span class="item__link_hover">Андреа
+                        Верроккью</span></div>
+                    <div class="item__link item__link__is_active" data-tabs_author="italy_112"><span
+                        class="item__link_hover">Доменико Гирландайо</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_113"><span
+                        class="item__link_hover">Беноццо Гоццоли</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_114"><span
+                        class="item__link_hover">Граначчи, Франческо</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_115"><span
+                        class="item__link_hover">Грегорио ди Чекко</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_116"><span
+                        class="item__link_hover">Джованни да Удине</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_117"><span
+                        class="item__link_hover">Джованни ди Паоло</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_118"><span
+                        class="item__link_hover">Джордоне</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_119"><span
+                        class="item__link_hover">Парентино, Бернардо</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_120"><span
+                        class="item__link_hover">Пазеллино</span></div>
+                    <div class="item__link" data-tabs_author="italy_121"><span class="item__link_hover">Пьетро
+                        Перуджино</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_122"><span
+                        class="item__link_hover">Перуцци, Бальдассаре</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_123"><span
+                        class="item__link_hover">Пизанелло</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_124"><span
+                        class="item__link_hover">Пинтуриккьо</span></div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -679,9 +775,12 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="italy_201"><span class="item__link_hover">Рафаэль</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_202"><span class="item__link_hover">Содома</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_203"><span class="item__link_hover">Монтанья, Бартоломео</span></a>
+                    <div class="item__link" data-tabs_author="italy_201"><span class="item__link_hover">Рафаэль</span>
+                    </div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_202"><span
+                        class="item__link_hover">Содома</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_203"><span
+                        class="item__link_hover">Монтанья, Бартоломео</span></div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -690,8 +789,10 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link link__no-content" data-tabs_author="italy_301"><span class="item__link_hover">Альбани, Франческо</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_302"><span class="item__link_hover">Рекко, Джузеппе</span></a>
+                    <div class="item__link link__no-content" data-tabs_author="italy_301"><span
+                        class="item__link_hover">Альбани, Франческо</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_302"><span
+                        class="item__link_hover">Рекко, Джузеппе</span></div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -700,8 +801,10 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link link__no-content" data-tabs_author="italy_401"><span class="item__link_hover">Грисони, Джузеппе</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_402"><span class="item__link_hover">Милани, Аурелиано</span></a>
+                    <div class="item__link link__no-content" data-tabs_author="italy_401"><span
+                        class="item__link_hover">Грисони, Джузеппе</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_402"><span
+                        class="item__link_hover">Милани, Аурелиано</span></div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -710,8 +813,10 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link link__no-content" data-tabs_author="italy_501"><span class="item__link_hover">Гордиджиани, Микеле</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_502"><span class="item__link_hover">Ченни, Квинто</span></a>
+                    <div class="item__link link__no-content" data-tabs_author="italy_501"><span
+                        class="item__link_hover">Гордиджиани, Микеле</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_502"><span
+                        class="item__link_hover">Ченни, Квинто</span></div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -720,8 +825,10 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link link__no-content" data-tabs_author="italy_601"><span class="item__link_hover">Бьяджетти, Бьяджо</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_602"><span class="item__link_hover">Гарау, Сальваторе</span></a>
+                    <div class="item__link link__no-content" data-tabs_author="italy_601"><span
+                        class="item__link_hover">Бьяджетти, Бьяджо</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_602"><span
+                        class="item__link_hover">Гарау, Сальваторе</span></div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -730,8 +837,10 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link link__no-content" data-tabs_author="italy_701"><span class="item__link_hover">Кунеллис, Яннис</span></a>
-                    <a class="item__link link__no-content" data-tabs_author="italy_702"><span class="item__link_hover">Ротелла, Миммо</span></a>
+                    <div class="item__link link__no-content" data-tabs_author="italy_701"><span
+                        class="item__link_hover">Кунеллис, Яннис</span></div>
+                    <div class="item__link link__no-content" data-tabs_author="italy_702"><span
+                        class="item__link_hover">Ротелла, Миммо</span></div>
                   </div>
                 </div>
               </div>
@@ -744,9 +853,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="russia_101">Тест 1 Russia</a>
-                    <a class="item__link" data-tabs_author="russia_102">Тест 2 Russia</a>
-                    <a class="item__link" data-tabs_author="russia_103">Тест 3 Russia</a>
+                    <div class="item__link" data-tabs_author="russia_101">Тест 1 Russia</div>
+                    <div class="item__link" data-tabs_author="russia_102">Тест 2 Russia</div>
+                    <div class="item__link" data-tabs_author="russia_103">Тест 3 Russia</div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -755,9 +864,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="russia_201">Тест 1 Russia</a>
-                    <a class="item__link" data-tabs_author="russia_202">Тест 2 Russia</a>
-                    <a class="item__link" data-tabs_author="russia_203">Тест 3 Russia</a>
+                    <div class="item__link" data-tabs_author="russia_201">Тест 1 Russia</div>
+                    <div class="item__link" data-tabs_author="russia_202">Тест 2 Russia</div>
+                    <div class="item__link" data-tabs_author="russia_203">Тест 3 Russia</div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -766,9 +875,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="russia_301">Тест 1 Russia</a>
-                    <a class="item__link" data-tabs_author="russia_302">Тест 2 Russia</a>
-                    <a class="item__link" data-tabs_author="russia_303">Тест 3 Russia</a>
+                    <div class="item__link" data-tabs_author="russia_301">Тест 1 Russia</div>
+                    <div class="item__link" data-tabs_author="russia_302">Тест 2 Russia</div>
+                    <div class="item__link" data-tabs_author="russia_303">Тест 3 Russia</div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -777,9 +886,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="russia_401">Тест 1 Russia</a>
-                    <a class="item__link" data-tabs_author="russia_402">Тест 2 Russia</a>
-                    <a class="item__link" data-tabs_author="russia_403">Тест 3 Russia</a>
+                    <div class="item__link" data-tabs_author="russia_401">Тест 1 Russia</div>
+                    <div class="item__link" data-tabs_author="russia_402">Тест 2 Russia</div>
+                    <div class="item__link" data-tabs_author="russia_403">Тест 3 Russia</div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -788,9 +897,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="russia_501">Тест 1 Russia</a>
-                    <a class="item__link" data-tabs_author="russia_502">Тест 2 Russia</a>
-                    <a class="item__link" data-tabs_author="russia_503">Тест 3 Russia</a>
+                    <div class="item__link" data-tabs_author="russia_501">Тест 1 Russia</div>
+                    <div class="item__link" data-tabs_author="russia_502">Тест 2 Russia</div>
+                    <div class="item__link" data-tabs_author="russia_503">Тест 3 Russia</div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -799,9 +908,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="russia_601">Тест 1 Russia</a>
-                    <a class="item__link" data-tabs_author="russia_602">Тест 2 Russia</a>
-                    <a class="item__link" data-tabs_author="russia_603">Тест 3 Russia</a>
+                    <div class="item__link" data-tabs_author="russia_601">Тест 1 Russia</div>
+                    <div class="item__link" data-tabs_author="russia_602">Тест 2 Russia</div>
+                    <div class="item__link" data-tabs_author="russia_603">Тест 3 Russia</div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -810,9 +919,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="russia_701">Тест 1 Russia</a>
-                    <a class="item__link" data-tabs_author="russia_702">Тест 2 Russia</a>
-                    <a class="item__link" data-tabs_author="russia_703">Тест 3 Russia</a>
+                    <div class="item__link" data-tabs_author="russia_701">Тест 1 Russia</div>
+                    <div class="item__link" data-tabs_author="russia_702">Тест 2 Russia</div>
+                    <div class="item__link" data-tabs_author="russia_703">Тест 3 Russia</div>
                   </div>
                 </div>
               </div>
@@ -825,9 +934,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="belgium_101">Тест 1 Belgium</a>
-                    <a class="item__link" data-tabs_author="belgium_102">Тест 2 Belgium</a>
-                    <a class="item__link" data-tabs_author="belgium_103">Тест 3 BBelgium</a>
+                    <div class="item__link" data-tabs_author="belgium_101">Тест 1 Belgium</div>
+                    <div class="item__link" data-tabs_author="belgium_102">Тест 2 Belgium</div>
+                    <div class="item__link" data-tabs_author="belgium_103">Тест 3 BBelgium</div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -836,9 +945,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="belgium_201">Тест 1 Belgium</a>
-                    <a class="item__link" data-tabs_author="belgium_202">Тест 2 Belgium</a>
-                    <a class="item__link" data-tabs_author="belgium_203">Тест 3 Belgium</a>
+                    <div class="item__link" data-tabs_author="belgium_201">Тест 1 Belgium</div>
+                    <div class="item__link" data-tabs_author="belgium_202">Тест 2 Belgium</div>
+                    <div class="item__link" data-tabs_author="belgium_203">Тест 3 Belgium</div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -847,9 +956,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="belgium_301">Тест 1 Belgium</a>
-                    <a class="item__link" data-tabs_author="belgium_302">Тест 2 Belgium</a>
-                    <a class="item__link" data-tabs_author="belgium_303">Тест 3 Belgium</a>
+                    <div class="item__link" data-tabs_author="belgium_301">Тест 1 Belgium</div>
+                    <div class="item__link" data-tabs_author="belgium_302">Тест 2 Belgium</div>
+                    <div class="item__link" data-tabs_author="belgium_303">Тест 3 Belgium</div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -858,9 +967,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="belgium_401">Тест 1 Belgium</a>
-                    <a class="item__link" data-tabs_author="belgium_402">Тест 2 Belgium</a>
-                    <a class="item__link" data-tabs_author="belgium_403">Тест 3 Belgium</a>
+                    <div class="item__link" data-tabs_author="belgium_401">Тест 1 Belgium</div>
+                    <div class="item__link" data-tabs_author="belgium_402">Тест 2 Belgium</div>
+                    <div class="item__link" data-tabs_author="belgium_403">Тест 3 Belgium</div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -869,9 +978,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="belgium_501">Тест 1 Belgium</a>
-                    <a class="item__link" data-tabs_author="belgium_502">Тест 2 Belgium</a>
-                    <a class="item__link" data-tabs_author="belgium_503">Тест 3 Belgium</a>
+                    <div class="item__link" data-tabs_author="belgium_501">Тест 1 Belgium</div>
+                    <div class="item__link" data-tabs_author="belgium_502">Тест 2 Belgium</div>
+                    <div class="item__link" data-tabs_author="belgium_503">Тест 3 Belgium</div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -880,9 +989,9 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="belgium_601">Тест 1 Belgium</a>
-                    <a class="item__link" data-tabs_author="belgium_602">Тест 2 Belgium</a>
-                    <a class="item__link" data-tabs_author="belgium_603">Тест 3 Belgium</a>
+                    <div class="item__link" data-tabs_author="belgium_601">Тест 1 Belgium</div>
+                    <div class="item__link" data-tabs_author="belgium_602">Тест 2 Belgium</div>
+                    <div class="item__link" data-tabs_author="belgium_603">Тест 3 Belgium</div>
                   </div>
                   <div class="item__title">
                     <div class="item__title__container">
@@ -891,79 +1000,85 @@
                     </div>
                   </div>
                   <div class="author__container">
-                    <a class="item__link" data-tabs_author="belgium_701">Тест 1 Belgium</a>
-                    <a class="item__link" data-tabs_author="belgium_702">Тест 2 Belgium</a>
-                    <a class="item__link" data-tabs_author="belgium_703">Тест 3 Belgium</a>
+                    <div class="item__link" data-tabs_author="belgium_701">Тест 1 Belgium</div>
+                    <div class="item__link" data-tabs_author="belgium_702">Тест 2 Belgium</div>
+                    <div class="item__link" data-tabs_author="belgium_703">Тест 3 Belgium</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
       </section>
       <section class="events">
         <div class="container__content">
           <div class="events__container">
-            <h2 class="title-regular">События</h2>
+            <h2 class="title-regular" id="events">События</h2>
             <article class="events__wrapper">
               <ul class="events__list">
                 <li class="events__item">
-                  <img class="events__item__poster" src="/img/events/events_1.jpg">
+                  <img class="events__item__poster" src="/img/events/events_1.jpg" alt="Событие">
                   <div class="events__info">
                     <span class="info-text">Музей им. Щусева</span>
                     <span class="info-text">с 20 марта по 30 апреля</span>
                   </div>
                   <div class="events__item__description">
                     <h4 class="events__item__title">Книжная гравюра в живом восприятии</h4>
-                    <p class="events__item__text text-regular">Один из ведущих флорентийских художников Кватроченто, основатель художественной династии, которую продолжили его брат Давид и сын Ридольфо.</p>
-                    <a class="events__item__link" href="">Подробнее</a>
+                    <p class="events__item__text text-regular">Один из ведущих флорентийских художников Кватроченто,
+                      основатель художественной династии, которую продолжили его брат Давид и сын Ридольфо.</p>
+                    <a class="events__item__link" href="#">Подробнее</a>
                   </div>
                 </li>
                 <li class="events__item">
-                  <img class="events__item__poster" src="/img/events/events_2.jpg">
+                  <img class="events__item__poster" src="/img/events/events_2.jpg" alt="Событие">
                   <div class="events__info">
                     <span class="info-text">ММОМА</span>
                     <span class="info-text">24 марта 19:00</span>
                   </div>
                   <div class="events__item__description">
                     <h4 class="events__item__title">«Открытая дискуссия». Дмитрий Петров и Сергей Ильин.</h4>
-                    <p class="events__item__text text-regular">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта.</p>
-                    <a class="events__item__link">Подробнее</a>
+                    <p class="events__item__text text-regular">Высокий уровень вовлечения представителей целевой
+                      аудитории является четким доказательством простого факта.</p>
+                    <a class="events__item__link" href="#">Подробнее</a>
                   </div>
                 </li>
                 <li class="events__item">
-                  <img class="events__item__poster" src="/img/events/events_3.jpg">
+                  <img class="events__item__poster" src="/img/events/events_3.jpg" alt="Событие">
                   <div class="events__info">
                     <span class="info-text">Еврейский музей</span>
                     <span class="info-text">с 31 марта по 21 апреля</span>
                   </div>
                   <div class="events__item__description">
                     <h4 class="events__item__title">Выставка «Формация 2020»</h4>
-                    <p class="events__item__text text-regular">Идейные соображения высшего порядка, а также современная методология разработки играет важную роль в формировании глубокомысленных рассуждений.</p>
-                    <a class="events__item__link">Подробнее</a>
+                    <p class="events__item__text text-regular">Идейные соображения высшего порядка, а также современная
+                      методология разработки играет важную роль в формировании глубокомысленных рассуждений.</p>
+                    <a class="events__item__link" href="#">Подробнее</a>
                   </div>
                 </li>
                 <li class="events__item">
-                  <img class="events__item__poster" src="/img/events/events_4.jpg">
+                  <img class="events__item__poster" src="/img/events/events_4.jpg" alt="Событие">
                   <div class="events__info">
                     <span class="info-text">Третьяковка на Крымском валу</span>
                     <span class="info-text">с 30 марта по 30 апреля</span>
                   </div>
                   <div class="events__item__description">
                     <h4 class="events__item__title">XXIV Международная биеннале молодого искусства</h4>
-                    <p class="events__item__text text-regular">Внезапно, реплицированные с зарубежных источников, современные исследования.</p>
-                    <a class="events__item__link">Подробнее</a>
+                    <p class="events__item__text text-regular">Внезапно, реплицированные с зарубежных источников,
+                      современные исследования.</p>
+                    <a class="events__item__link" href="#">Подробнее</a>
                   </div>
                 </li>
                 <li class="events__item">
-                  <img class="events__item__poster" src="/img/events/events_5.jpg">
+                  <img class="events__item__poster" src="/img/events/events_5.jpg" alt="Событие">
                   <div class="events__info">
                     <span class="info-text">ММОМА</span>
                     <span class="info-text">24 марта 21:00</span>
                   </div>
                   <div class="events__item__description">
                     <h4 class="events__item__title">Джон Винзор. Фотографии из серии «Метафора серебра»</h4>
-                    <p class="events__item__text text-regular">Один из ведущих флорентийских художников Кватроченто, основатель художественной династии, которую продолжили его брат Давид и сын Ридольфо.</p>
-                    <a class="events__item__link">Подробнее</a>
+                    <p class="events__item__text text-regular">Один из ведущих флорентийских художников Кватроченто,
+                      основатель художественной династии, которую продолжили его брат Давид и сын Ридольфо.</p>
+                    <a class="events__item__link" href="#">Подробнее</a>
                   </div>
                 </li>
               </ul>
@@ -975,7 +1090,7 @@
       <section class="publication container__full">
         <div class="publication__container container__content">
           <div class="publication__left-side">
-            <h2 class="publication__title title-regular">Издания</h2>
+            <h2 class="publication__title title-regular" id="publication">Издания</h2>
             <div class="publication__category">
               <h3 class="category__title">Категории</h3>
               <ul class="category__list text-regular">
@@ -1085,7 +1200,7 @@
               </div>
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img class="publication__swiper-image" src="/img/publication/catalog/item_1.jpg">
+                  <img class="publication__swiper-image" src="/img/publication/catalog/item_1.jpg" alt="Книга">
                   <div class="swiper-card__container">
                     <div class="card__container-info">
                       <span class="container-info_name">Искусство цвета</span>
@@ -1096,7 +1211,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <img class="publication__swiper-image" src="/img/publication/catalog/item_2.jpg">
+                  <img class="publication__swiper-image" src="/img/publication/catalog/item_2.jpg" alt="Книга">
                   <div class="swiper-card__container">
                     <div class="card__container-info">
                       <span class="container-info_name">Типографика</span>
@@ -1107,7 +1222,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <img class="publication__swiper-image" src="/img/publication/catalog/item_3.jpg">
+                  <img class="publication__swiper-image" src="/img/publication/catalog/item_3.jpg" alt="Книга">
                   <div class="swiper-card__container">
                     <div class="card__container-info">
                       <span class="container-info_name">Книга про буквы</span>
@@ -1118,7 +1233,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <img class="publication__swiper-image" src="/img/publication/catalog/item_4.jpg">
+                  <img class="publication__swiper-image" src="/img/publication/catalog/item_4.jpg" alt="Книга">
                   <div class="swiper-card__container">
                     <div class="card__container-info">
                       <span class="container-info_name">Николай Ильин</span>
@@ -1129,7 +1244,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <img class="publication__swiper-image" src="/img/publication/catalog/item_5.jpg">
+                  <img class="publication__swiper-image" src="/img/publication/catalog/item_5.jpg" alt="Книга">
                   <div class="swiper-card__container">
                     <div class="card__container-info">
                       <span class="container-info_name">Модульные системы</span>
@@ -1140,7 +1255,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <img class="publication__swiper-image" src="/img/publication/catalog/item_6.jpg">
+                  <img class="publication__swiper-image" src="/img/publication/catalog/item_6.jpg" alt="Книга">
                   <div class="swiper-card__container">
                     <div class="card__container-info">
                       <span class="container-info_name">Эволюция графических ст...</span>
@@ -1151,7 +1266,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <img class="publication__swiper-image" src="/img/publication/catalog/item_7.jpg">
+                  <img class="publication__swiper-image" src="/img/publication/catalog/item_7.jpg" alt="Книга">
                   <div class="swiper-card__container">
                     <div class="card__container-info">
                       <span class="container-info_name">Искусство и визуальное в...</span>
@@ -1166,13 +1281,136 @@
           </div>
         </div>
       </section>
+      <section class="project">
+        <div class="project__container container__content">
+          <h2 class="title-regular" id="project">Проекты</h2>
+          <p class="text-regular project__text">
+            Предварительные выводы: постоянное информационно-пропагандистское обеспечение нашей деятельности однозначно
+            фиксирует необходимость своевременного выполнения сверхзадачи. А ещё независимые государства смешаны с не
+            уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности.
+            Прежде всего, постоянное информационно&#8209;пропагандистское
+            <button class="project__tooltip"
+              data-tooltip="Пример современных тенденций - современная методология разработки">i</button>
+            обеспечение нашей деятельности однозначно фиксирует необходимость экономической целесообразности принимаемых
+            решений. И нет сомнений, что действия представителей оппозиции могут быть рассмотрены
+            <button class="project__tooltip"
+              data-tooltip="Приятно, граждане наблюдать, как сделанные на базе аналитики выводы вызывают у вас эмоции">i</button>
+            исключительно в разрезе маркетинговых и финансовых <button class="project__tooltip"
+              data-tooltip="В стремлении повысить качество">i</button> предпосылок. Банальные, но неопровержимые выводы,
+            а также представители современных социальных резервов призывают нас к новым свершениям, которые, в свою
+            очередь, должны быть смешаны с не уникальными данными до степени совершенной неузнаваемости. Подробнее: <a
+              class="project__link" href="#">blanchard-art.ru/projects/about</a>
+          </p>
+          <h3 class="project__subtitle">Партнёры проектов:</h3>
+          <div class="project__swiper">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a class="project__swiper-image_link" href="#">
+                    <img class="project__swiper-image" src="/img/project/partner_1.png" alt="Проекты">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a class="project__swiper-image_link" href="#">
+                    <img class="project__swiper-image" src="/img/project/partner_2.png" alt="Проекты">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a class="project__swiper-image_link" href="#">
+                    <img class="project__swiper-image" src="/img/project/partner_3.png" alt="Проекты">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a class="project__swiper-image_link" href="#">
+                    <img class="project__swiper-image" src="/img/project/partner_4.png" alt="Проекты">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a class="project__swiper-image_link" href="#">
+                    <img class="project__swiper-image" src="/img/project/partner_5.png" alt="Проекты">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a class="project__swiper-image_link" href="#">
+                    <img class="project__swiper-image" src="/img/project/partner_6.png" alt="Проекты">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a class="project__swiper-image_link" href="#">
+                    <img class="project__swiper-image" src="/img/project/partner_7.png" alt="Проекты">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a class="project__swiper-image_link" href="#">
+                    <img class="project__swiper-image" src="/img/project/partner_8.png" alt="Проекты">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a class="project__swiper-image_link" href="#">
+                    <img class="project__swiper-image" src="/img/project/partner_9.png" alt="Проекты">
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="container__content">
+          <h2 class="title-regular contacts__title" id="contacts">Контакты</h2>
+        </div>
+        <div class="contacts__wrapper container__full">
+          <div class="contacts-left">
+            <div class="contacts-left__address">
+              <h4 class="address__room">Шоурум №4</h4>
+              <span class="text-regular">Леонтьевский переулок, дом 5, строение 1</span>
+            </div>
+            <form class="contacts-form">
+              <h4 class="contacts-form__sub-title sub__title">Заказать обратный звонок</h4>
+              <input class="contacts-form__input" type="text" placeholder="Имя*" name="name">
+              <input class="contacts-form__input" type="number" placeholder="Телефон*" name="number">
+              <button class="contacts-form__btn">Заказать</button>
+            </form>
+            <div class="contacts__social">
+              <span class="social__sub-title sub__title">Связаться в один клик</span>
+              <div class="social__wrapper-icon">
+                <a class="social__link" href="#"><img src="/img/contacts/whatsupp.svg" alt="WhatSupp"></a>
+                <a class="social__link" href="#"><img src="/img/contacts/telega.svg" alt="Telegram"></a>
+              </div>
+            </div>
+          </div>
+          <div class="contacts-right" id="map"></div>
+        </div>
+      </section>
     </main>
+    <footer class="footer" id="test">
+      <div class="container__full footer__container">
+        <a class="logo" href="/index.html">
+          <img src="/img/logo.svg" alt="Логотип">
+        </a>
+        <div class="footer-social__container">
+          <a class="footer-social__link" href="#">
+            <img src="img/footer/vk.svg" alt="Социальная сеть">
+          </a>
+          <a class="footer-social__link" href="#">
+            <img src="img/footer/instagram.svg" alt="Социальная сеть">
+          </a>
+          <a class="footer-social__link" href="#">
+            <img src="img/footer/fb.svg" alt="Социальная сеть">
+          </a>
+        </div>
+      </div>
+
+    </footer>
   </div>
   <script src="/js/simplebar.min.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="/js/choices.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
   <script src="/js/index.js"></script>
 </body>
 
