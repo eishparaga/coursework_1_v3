@@ -2,28 +2,28 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: url(/fonts/opensans_300.woff), url(/fonts/opensans_300.woff2);
+  src: url(../fonts/opensans_300.woff), url(../fonts/opensans_300.woff2);
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Open Sans';
-  src: url(/fonts/opensans_400.woff), url(/fonts/opensans_400.woff2);
+  src: url(../fonts/opensans_400.woff), url(../fonts/opensans_400.woff2);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Open Sans';
-  src: url(/fonts/opensans_600.woff), url(/fonts/opensans_600.woff2);
+  src: url(../fonts/opensans_600.woff), url(../fonts/opensans_600.woff2);
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Open Sans';
-  src: url(/fonts/opensans_700.woff), url(/fonts/opensans_700.woff2);
+  src: url(../fonts/opensans_700.woff), url(../fonts/opensans_700.woff2);
   font-weight: 700;
   font-style: normal;
 }
@@ -95,10 +95,9 @@ Header
   width: 100%;
   height: 800px;
   margin-bottom: 80px;
-  background-image: url(/img/hero-background/01_birmingham-museums-trust.jpg);
+  background-image: url(../img/hero-background/01_birmingham-museums-trust.jpg);
   background-position: center;
   background-size: cover;
-  animation: backgroundAnimation 30s linear infinite;
 }
 
 .header__top {
@@ -125,7 +124,7 @@ Header
 .logo {
   width: 173px;
   height: 40px;
-  background-image: url(/img/logo.svg);
+  background-image: url(../img/logo.svg);
 }
 
 .menu__list {
@@ -184,7 +183,7 @@ Header
 }
 
 .header__enter:hover .enter__image {
-  background-image: url(/img/login-img-hover.svg);
+  background-image: url(../img/login-img-hover.svg);
 }
 
 .header__enter:focus {
@@ -196,7 +195,7 @@ Header
   width: 18px;
   height: 13px;
   margin-right: 7px;
-  background-image: url(/img/login-img.svg);
+  background-image: url(../img/login-img.svg);
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -242,11 +241,13 @@ Header
 
 .trend-items:hover .trend-item__btn {
   color:#9D5CD0;
+  transition: 0.25s linear;
 }
 
 .trend-items:hover .trend-item__btn::after {
   border-top: 1px solid #9D5CD0;
   border-left: 1px solid #9D5CD0;
+  transition: 0.25s linear;
 }
 
 .trend-items:active .trend-item__btn {
@@ -359,91 +360,91 @@ Header
 /* Реализм */
 
 .link-author_tintoretto {
-  background-image: url(/img/rout/01_real/img_1.png);
+  background-image: url(../img/rout/01_real/img_1.png);
 }
 
 .link-author_fridrich {
-  background-image: url(/img/rout/01_real/img_2.png);
+  background-image: url(../img/rout/01_real/img_2.png);
 }
 
 .link-author_leonardo {
-  background-image: url(/img/rout/01_real/img_3.png);
+  background-image: url(../img/rout/01_real/img_3.png);
 }
 
 .link-author_veroccyo {
-  background-image: url(/img/rout/01_real/img_4.png);
+  background-image: url(../img/rout/01_real/img_4.png);
 }
 
 /* Импрессионизм */
 
 .link-author_mone {
-  background-image: url(/img/rout/02_impres/img_1.png);
+  background-image: url(../img/rout/02_impres/img_1.png);
 }
 
 .link-author_sysle {
-  background-image: url(/img/rout/02_impres/img_2.png);
+  background-image: url(../img/rout/02_impres/img_2.png);
 }
 
 .link-author_mane {
-  background-image: url(/img/rout/02_impres/img_3.png);
+  background-image: url(../img/rout/02_impres/img_3.png);
 }
 
 .link-author_renuar {
-  background-image: url(/img/rout/02_impres/img_4.png);
+  background-image: url(../img/rout/02_impres/img_4.png);
 }
 
 /* Постимпрессионизм */
 
 .link-author_gog {
-  background-image: url(/img/rout/03_postimpres/img_1.png);
+  background-image: url(../img/rout/03_postimpres/img_1.png);
 }
 
 .link-author_sesann {
-  background-image: url(/img/rout/03_postimpres/img_2.png);
+  background-image: url(../img/rout/03_postimpres/img_2.png);
 }
 
 .link-author_gogen {
-  background-image: url(/img/rout/03_postimpres/img_3.png);
+  background-image: url(../img/rout/03_postimpres/img_3.png);
 }
 
 .link-author_sera {
-  background-image: url(/img/rout/03_postimpres/img_4.png);
+  background-image: url(../img/rout/03_postimpres/img_4.png);
 }
 
 /* Авангард */
 
 .link-author_kandinsky {
-  background-image: url(/img/rout/04_avangard/img_01.png);
+  background-image: url(../img/rout/04_avangard/img_01.png);
 }
 
 .link-author_marinet {
-  background-image: url(/img/rout/04_avangard/img_02.png);
+  background-image: url(../img/rout/04_avangard/img_02.png);
 }
 
 .link-author_picasso {
-  background-image: url(/img/rout/04_avangard/img_03.png);
+  background-image: url(../img/rout/04_avangard/img_03.png);
 }
 
 .link-author_malevic {
-  background-image: url(/img/rout/04_avangard/img_04.png);
+  background-image: url(../img/rout/04_avangard/img_04.png);
 }
 
 /* Футуризм */
 
 .link-author_karra {
-  background-image: url(/img/rout/05_future/img_01.png);
+  background-image: url(../img/rout/05_future/img_01.png);
 }
 
 .link-author_pratella {
-  background-image: url(/img/rout/05_future/img_02.png);
+  background-image: url(../img/rout/05_future/img_02.png);
 }
 
 .link-author_severiny {
-  background-image: url(/img/rout/05_future/img_03.png);
+  background-image: url(../img/rout/05_future/img_03.png);
 }
 
 .link-author_balla {
-  background-image: url(/img/rout/05_future/img_04.png);
+  background-image: url(../img/rout/05_future/img_04.png);
 }
 
 .droplist__link:hover {
@@ -485,7 +486,7 @@ Header
   width: 22px;
   height: 22px;
   margin-right: 10px;
-  background-image: url(/img/pictogram/search.svg);
+  background-image: url(../img/pictogram/search.svg);
   background-color: transparent;
   border: none;
 }
@@ -512,11 +513,11 @@ Header
 }
 
 .site-search:hover .site-search__btn {
-  background-image: url(/img/pictogram/search-hover.svg);
+  background-image: url(../img/pictogram/search-hover.svg);
 }
 
 .site-search__input:focus .site-search__btn {
-  background-image: url(/img/pictogram/search-hover.svg);
+  background-image: url(../img/pictogram/search-hover.svg);
 }
 
 .site-search:hover .site-search__input {
@@ -634,7 +635,7 @@ GALLERY
 .container__full.gallery {
   width: 100%;
   height: 995px;
-  background-image: url(/img/gallery/gallery-background.jpg);
+  background-image: url(../img/gallery/gallery-background.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -724,7 +725,7 @@ GALLERY
   height: 10px;
   width: 12px;
   border: none;
-  background-image: url(/img/pictogram/down-img.svg);
+  background-image: url(../img/pictogram/down-img.svg);
   pointer-events: none
 }
 
@@ -743,6 +744,11 @@ GALLERY
 .link__active {
   color: #C283F3;
 }
+
+.link__active:hover {
+  border-bottom: 1px solid #C283F3;
+}
+
 
 /* SWIPER GALLERY */
 
@@ -779,13 +785,12 @@ GALLERY
 
 .gallery__right .swiper-button-next,
 .gallery__right .swiper-button-prev {
+  position: relative;
   width: 30px;
   height: 30px;
-  border-radius: 100%;
+  border: none;
+  border-radius: 15px;
   background-color: #666666;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 15px 15px;
 }
 
 .gallery__right .swiper-button-prev.swiper-button-disabled,
@@ -793,16 +798,59 @@ GALLERY
   opacity: 0.7;
 }
 
-.gallery__right .swiper-button-prev {
+ .gallery__right .swiper-button-prev {
   top: 15px;
   left: 2px;
-  background-image: url(/img/gallery/back.svg);
 }
 
 .gallery__right .swiper-button-next {
-  top: 15px;
-  left: 105px;
-  background-image: url(/img/gallery/next.svg);
+  top: 8px;
+  left: 104px;
+}
+
+.gallery__right .swiper-button-next::before {
+  content: '';
+  position: absolute;
+  left: 9px;
+  top: 10px;
+  width: 7px;
+  height: 7px;
+  border-right: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  transform: rotate(-45deg);
+}
+
+.gallery__right .swiper-button-prev::before {
+  content: '';
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  width: 7px;
+  height: 7px;
+  border-right: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  transform: rotate(135deg);
+}
+
+.gallery__right .swiper-button-next:hover,
+.gallery__right .swiper-button-prev:hover {
+  background-color: #9D5CD0;
+}
+
+.gallery__right .swiper-button-next:active,
+.gallery__right .swiper-button-prev:active {
+  background-color: #7943A4;
+  border: 2px solid #D1A9F0;
+}
+
+.gallery__right .swiper-button-next:active::before {
+  top: 8px;
+  left:7px;
+}
+
+.gallery__right .swiper-button-prev:active::before {
+  top: 8px;
+  left:10px;
 }
 
 .gallery__right .swiper-top {
@@ -852,28 +900,32 @@ CATALOG
   background-size: cover;
 }
 
+.tabs__btn:hover {
+  box-shadow: 0px 0px 10px 5px rgba(157, 92, 208, 0.4);
+}
+
 [data-tabs_path="france"] {
-  background-image: url(/img/catalog/france.png);
+  background-image: url(../img/catalog/france.png);
   outline: none;
 }
 
 [data-tabs_path="germany"] {
-  background-image: url(/img/catalog/germany.png);
+  background-image: url(../img/catalog/germany.png);
   outline: none;
 }
 
 [data-tabs_path="italy"] {
-  background-image: url(/img/catalog/italy.png);
+  background-image: url(../img/catalog/italy.png);
   outline: none;
 }
 
 [data-tabs_path="russia"] {
-  background-image: url(/img/catalog/russia.png);
+  background-image: url(../img/catalog/russia.png);
   outline: none;
 }
 
 [data-tabs_path="belgium"] {
-  background-image: url(/img/catalog/belgium.png);
+  background-image: url(../img/catalog/belgium.png);
   outline: none;
 }
 
@@ -891,14 +943,13 @@ CATALOG
   height: 62px;
   border: 2px solid #9D5CD0;
   border-radius: 100%;
-  box-shadow: 0px 0px 4px 2px rgba(157, 92, 208, 0.2) inset;
 }
 
 /* --TABS BOTTOM-- */
 
 .catalog__bottom {
   display: flex;
-  margin-bottom: 82px;
+  margin-bottom: 80px;
 }
 
 .catalog__bottom__left {
@@ -958,8 +1009,10 @@ h3.ui-accordion-header:nth-last-of-type(1){
   border-bottom: 1px solid #9D5CD0;
 }
 
-.ui-accordion-header-active .item__title__icon {
-  background-image: url(/img/catalog/accordion/active.png);
+.ui-accordion-header-active .item__title__icon::after {
+  top: 22px;
+  transform: rotate(225deg);
+  transition: 0.25s linear;
 }
 
 .author__container {
@@ -970,8 +1023,7 @@ h3.ui-accordion-header:nth-last-of-type(1){
   grid-template-rows: repeat(9, 32px);
   padding: 25px 0 28px 0;
   width: 100%;
-  height: 342px;
-  padding-top: 25px;
+  height: 344px;
 }
 
 .item__title__container {
@@ -987,11 +1039,23 @@ h3.ui-accordion-header:nth-last-of-type(1){
 }
 
 .item__title__icon {
+  position: relative;
   width: 50px;
   height: 50px;
-  background-image: url(/img/catalog/accordion/no_active.png);
-  background-size: contain;
-  background-position: center;
+  background-color: #ECECEC;
+  border-radius: 25px;
+}
+
+.item__title__icon::after {
+  content: "";
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 12px;
+  height: 12px;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  transform: rotate(45deg);
 }
 
 .item__link {
@@ -1019,8 +1083,27 @@ h3.ui-accordion-header:nth-last-of-type(1){
   font-weight: 600;
 }
 
-.item__title:focus {
-  outline: none;
+.item__title:hover .item__title__text {
+  color:#9D5CD0;
+}
+
+.item__title:hover .item__title__icon {
+  background-color: #9D5CD0;
+  transition: 0.25s linear;
+}
+
+.item__title:hover .item__title__icon::after {
+  border-bottom: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  transition: 0.25s linear;
+}
+
+.item__title:active .item__title__text {
+  color: #7943A4;
+}
+
+.item__title:active .item__title__icon {
+  background-color: #7943A4;
 }
 
 /* LEFT TABS */
@@ -1197,7 +1280,7 @@ PUBLICATION
 .publication {
   height: 763px;
   margin-bottom: 80px;
-  background-image: url(/img/publication/publication_background.jpg);
+  background-image: url(../img/publication/publication_background.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -1391,11 +1474,8 @@ div.price-filter__txt {
 .publication__right-side .swiper-button-prev {
   width: 30px;
   height: 30px;
-  border-radius: 100%;
+  border-radius: 15px;
   background-color: #666666;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 15px 15px;
 }
 
 .publication__right-side .swiper-button-prev.swiper-button-disabled,
@@ -1406,13 +1486,56 @@ div.price-filter__txt {
 .publication__right-side .swiper-button-prev {
   top: 15px;
   left: 0px;
-  background-image: url(/img/gallery/back.svg);
 }
 
 .publication__right-side .swiper-button-next {
   top: 15px;
   left: 100px;
-  background-image: url(/img/gallery/next.svg);
+}
+
+.publication__right-side .swiper-button-next::before {
+  content: '';
+  position: absolute;
+  left: 9px;
+  top: 10px;
+  width: 7px;
+  height: 7px;
+  border-right: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  transform: rotate(-45deg);
+}
+
+.publication__right-side .swiper-button-prev::before {
+  content: '';
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  width: 7px;
+  height: 7px;
+  border-right: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  transform: rotate(135deg);
+}
+
+.publication__right-side .swiper-button-next:hover,
+.publication__right-side .swiper-button-prev:hover {
+  background-color: #9D5CD0;
+}
+
+.publication__right-side .swiper-button-next:active,
+.publication__right-side .swiper-button-prev:active {
+  background-color: #7943A4;
+  border: 2px solid #D1A9F0;
+}
+
+.publication__right-side .swiper-button-next:active::before {
+  top: 8px;
+  left:7px;
+}
+
+.publication__right-side .swiper-button-prev:active::before {
+  top: 8px;
+  left:10px;
 }
 
 .publication__right-side .swiper-top {
@@ -1596,7 +1719,7 @@ PROJECT
   left: 6px;
   width: 30px;
   height: 30px;
-  background-image: url(/img/project/next.png);
+  background-image: url(../img/project/next.png);
 }
 
 .project__swiper .swiper-button-prev::after {
@@ -1605,24 +1728,24 @@ PROJECT
   left: -10px;
   width: 30px;
   height: 30px;
-  background-image: url(/img/project/back.png);
+  background-image: url(../img/project/back.png);
 }
 
 .project__swiper .swiper-button-next:hover::after {
-  background-image: url(/img/project/arrow_hover.svg);
+  background-image: url(../img/project/arrow_hover.svg);
 }
 
 .project__swiper .swiper-button-prev:hover::after {
-  background-image: url(/img/project/arrow_hover.svg);
+  background-image: url(../img/project/arrow_hover.svg);
   transform: rotate(180deg);
 }
 
 .project__swiper .swiper-button-next:active::after {
-  background-image: url(/img/project/arrow_active.svg);
+  background-image: url(../img/project/arrow_active.svg);
 }
 
 .project__swiper .swiper-button-prev:active:after {
-  background-image: url(/img/project/arrow_active.svg);
+  background-image: url(../img/project/arrow_active.svg);
   transform: rotate(180deg);
 }
 

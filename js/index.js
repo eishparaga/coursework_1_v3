@@ -249,7 +249,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         myPlacemark = new ymaps.Placemark([55.758438, 37.601088], {}, {
           iconLayout: 'default#image',
-          iconImageHref: '/img/contacts/map-point.svg',
+          iconImageHref: '../img/contacts/map-point.svg',
           iconImageSize: [20, 20],
           iconImageOffset: [-10, -10]
         }),
@@ -263,3 +263,7 @@ document.addEventListener('DOMContentLoaded', function() {
         myMap.controls.remove('fullscreenControl');
         myMap.controls.remove('rulerControl');
     }
+
+
+    //Валидация формы
+
