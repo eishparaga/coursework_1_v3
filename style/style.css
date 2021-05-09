@@ -39,6 +39,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 body, ul, li, h1, h2, h3, h4, p {
   margin: 0;
   padding: 0;
@@ -53,10 +57,6 @@ a {
   color: inherit;
 }
 
-body {
-  font-family: 'Open Sans';
-}
-
 :focus,
 :active {
   border: none;
@@ -64,7 +64,6 @@ body {
 }
 
 .wrapper {
-  max-width: 1920px;
   margin: 0 auto;
 }
 
@@ -72,11 +71,11 @@ body {
   width: 100%;
 }
 
-.container__full {
+.container_full {
   width: 100%;
 }
 
-.container__content {
+.container_content {
   max-width: 1600px;
   margin: 0 auto;
 }
@@ -91,21 +90,21 @@ body {
 Header
 <----- */
 
-.container__top {
+.container_top {
   width: 100%;
-  height: 800px;
+  min-height: 800px;
   margin-bottom: 80px;
   background-image: url(../img/hero-background/01_birmingham-museums-trust.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.header__top {
+.header_top {
   height: 100px;
   background-color: #000000;
 }
 
-.container__menu {
+.top_menu {
   display: flex;
   align-items: center;
   height: 100%;
@@ -113,7 +112,7 @@ Header
 
 .logo__container {
   display: flex;
-  margin-right: 180px;
+  margin-right: 174px;
 }
 
 .logo__container:focus {
@@ -130,9 +129,8 @@ Header
 .menu__list {
   display: flex;
   margin-right: 268px;
-  font-family: 'Open Sans';
   font-size: 18px;
-  line-height: 24.5px;
+  line-height: 24px;
   font-weight: 600;
   color: #FFFFFF;
   white-space: nowrap;
@@ -140,10 +138,6 @@ Header
 
 .menu__link {
   padding: 0 6px;
-}
-
-.menu__item:first-child {
-  margin-left: -6px;
 }
 
 .menu__item:not(:first-child) {
@@ -171,9 +165,8 @@ Header
   display: flex;
   align-items: center;
   padding: 2px;
-  font-family: 'Open Sans';
   font-size: 18px;
-  line-height: 24.5px;
+  line-height: 24px;
   font-weight: 400;
   color: #FFFFFF;
 }
@@ -278,6 +271,7 @@ Header
   font-size: 18px;
   color: #FFFFFF;
   background-color: transparent;
+  cursor: pointer;
   border: none; 
 }
 
@@ -567,7 +561,7 @@ Header
   width: 100%;
   height: 70px;
   font-size: 18px;
-  line-height: 24.5px;
+  line-height: 24px;
   font-weight: 700;
   color: #FFFFFF;
   border: none;
@@ -620,7 +614,7 @@ ABOUT__US
   color: #FFFFFF;
 }
 
-.container__content.section__about {
+.container_content.section__about {
   margin-bottom: 70px;
 }
 
@@ -632,7 +626,7 @@ GALLERY
   margin-bottom: 80px;
 }
 
-.container__full.gallery {
+.container_full.gallery {
   width: 100%;
   height: 995px;
   background-image: url(../img/gallery/gallery-background.jpg);
@@ -721,7 +715,7 @@ GALLERY
   position: absolute;
   right: 14px;
   top: 18px;
-  margin-top: -2.5px;
+  margin-top: -2px;
   height: 10px;
   width: 12px;
   border: none;
@@ -730,7 +724,7 @@ GALLERY
 }
 
 .choices[data-type*=select-one].is-open:after {
-  margin-top: -2.5px
+  margin-top: -2px
 }
 
 /* --------- */
@@ -898,6 +892,7 @@ CATALOG
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: pointer;
 }
 
 .tabs__btn:hover {
@@ -1044,6 +1039,7 @@ h3.ui-accordion-header:nth-last-of-type(1){
   height: 50px;
   background-color: #ECECEC;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 .item__title__icon::after {
@@ -1341,8 +1337,8 @@ PUBLICATION
 .category__checkbox+span::before {
   content: "";
   position: absolute;
-  top: 2.5px;
-  left: 2.5px;
+  top: 2px;
+  left: 2px;
   width: 4px;
   height: 4px;
   opacity: 0;
@@ -1444,6 +1440,7 @@ div.price-filter__txt {
   border: 2px solid #9D5CD0;
   border-radius: 20px;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .swiper-card__btn:hover {
@@ -1812,7 +1809,7 @@ CONTACTS
   border: 2px solid #9D5CD0;
   border-radius: 30px;
   background-color: #FFFFFF;
-  
+  cursor: pointer;
 }
 
 .contacts-form__btn:hover {
